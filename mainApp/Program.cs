@@ -11,6 +11,7 @@ namespace mainApp
             string weight = "";
             string name = "";
 
+            // Global variables are declared
 
             Console.Write("Enter your name: ");
             name = Console.ReadLine();
@@ -69,6 +70,7 @@ namespace mainApp
 
             Console.WriteLine();
 
+            // All data is assigned to its own variables. Ready to withdraw 
 
             Console.WriteLine("========= INFORMATION ABOUT YOU =========");
 

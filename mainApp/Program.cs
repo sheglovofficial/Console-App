@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text.RegularExpressions;
 
 namespace mainApp
 {
@@ -6,29 +7,69 @@ namespace mainApp
     {
         static void Main(string[] args)
         {
+            string age = "";
+            string height = "";
+            string weight = "";
             string name = "";
-            Console.Write("Enter your name(ENG): ");
+
+
+            Console.Write("Enter your name: ");
             name = Console.ReadLine();
 
-            string age = "";
-            Console.Write($"Enter your age: {age}");
-            age = Console.ReadLine();
-            int ageConvert = Convert.ToInt32(age);
+            bool ageCorrect = false;
+            while (ageCorrect == false)
+            {
+                try
+                {
+                    Console.Write($"Enter your age: {age}");
+                    age = Console.ReadLine();
+                    int ageConvert = Convert.ToInt32(age);
+                    ageCorrect = true;
+                }
+                catch
+                {
+                    Console.WriteLine("Please use Integer, not String!");
+                }
+            }
 
-            string height = "";
-            Console.Write($"Enter your height: {height}");
-            height = Console.ReadLine();
-            int heightConvert = Convert.ToInt32(height);
+            bool heightCorrect = false;
+            while (heightCorrect == false)
+            {
+                try
+                {
+                    Console.Write($"Enter your height: {height}");
+                    height = Console.ReadLine();
+                    int heightConvert = Convert.ToInt32(height);
+                    heightCorrect = true;
+                }
+                catch
+                {
+                    Console.WriteLine("Please use Integer, not String!");
+                }
+            }
 
-            string weight = "";
-            Console.Write($"Enter your weight: {weight}");
-            weight = Console.ReadLine();
-            int weightConvert = Convert.ToInt32(weight);
+            bool weightCorrect = false;
+            while (weightCorrect == false)
+            {
+                try
+                {
+                    Console.Write($"Enter your weight: {weight}");
+                    weight = Console.ReadLine();
+                    int weightConvert = Convert.ToInt32(weight);
+                    weightCorrect = true;
+                }
+                catch
+                {
+                    Console.WriteLine("Please use Integer, not String!");
+                }
+            }
 
             string residenceAddress = "";
-            Console.Write("Enter your place of residence (ENG): ");
+            Console.Write("Enter your place of residence: ");
             residenceAddress = Console.ReadLine();
+
             Console.WriteLine();
+
 
             Console.WriteLine("========= INFORMATION ABOUT YOU =========");
 

@@ -6,11 +6,9 @@ namespace mainApp
     {
         static void Main(string[] args)
         {
-            // string age = "";
-            // string height = "";
-            // string weight = "";
             string name = "";
             int age = 0, height = 0, weight = 0;
+
             // Global variables are declared
 
             Console.Write("Enter your name: ");
@@ -22,7 +20,7 @@ namespace mainApp
                 try
                 {
                     Console.Write("Enter your age: ");
-                    age = Int32.Parse(Console.ReadLine())
+                    age = Int32.Parse(Console.ReadLine());
                     ageCorrect = true;
                 }
                 catch
@@ -37,7 +35,7 @@ namespace mainApp
                 try
                 {
                     Console.Write("Enter your height: ");
-                    height = Int32.Parse(Console.ReadLine()));
+                    height = Int32.Parse(Console.ReadLine());
                     heightCorrect = true;
                 }
                 catch
@@ -52,7 +50,7 @@ namespace mainApp
                 try
                 {
                     Console.Write("Enter your weight: ");
-                    weight = Int32.Parse(Console.ReadLine())
+                    weight = Int32.Parse(Console.ReadLine());
                     weightCorrect = true;
                 }
                 catch

@@ -10,7 +10,7 @@ namespace mainApp
             // string height = "";
             // string weight = "";
             string name = "";
-            int age, height, weight;
+            int age = 0, height = 0, weight = 0;
             // Global variables are declared
 
             Console.Write("Enter your name: ");
@@ -22,7 +22,7 @@ namespace mainApp
                 try
                 {
                     Console.Write("Enter your age: ");
-                    age = Convert.ToInt32(Console.ReadLine())
+                    age = Int32.Parse(Console.ReadLine())
                     ageCorrect = true;
                 }
                 catch
@@ -37,7 +37,7 @@ namespace mainApp
                 try
                 {
                     Console.Write("Enter your height: ");
-                    height = Convert.ToInt32(Console.ReadLine()));
+                    height = Int32.Parse(Console.ReadLine()));
                     heightCorrect = true;
                 }
                 catch
@@ -51,8 +51,8 @@ namespace mainApp
             {
                 try
                 {
-                    Console.Write($"Enter your weight: {weight}");
-                    weight = Convert.ToInt32(Console.ReadLine())
+                    Console.Write("Enter your weight: ");
+                    weight = Int32.Parse(Console.ReadLine())
                     weightCorrect = true;
                 }
                 catch

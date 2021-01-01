@@ -82,6 +82,7 @@ namespace mainApp
 
             Console.WriteLine("=========================================");
 
+            Console.ReadKey();
         }
     }
 }

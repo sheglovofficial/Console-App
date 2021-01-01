@@ -6,11 +6,11 @@ namespace mainApp
     {
         static void Main(string[] args)
         {
-            string age = "";
-            string height = "";
-            string weight = "";
+            // string age = "";
+            // string height = "";
+            // string weight = "";
             string name = "";
-
+            int age, height, weight;
             // Global variables are declared
 
             Console.Write("Enter your name: ");
@@ -21,9 +21,8 @@ namespace mainApp
             {
                 try
                 {
-                    Console.Write($"Enter your age: {age}");
-                    age = Console.ReadLine();
-                    int ageConvert = Convert.ToInt32(age);
+                    Console.Write("Enter your age: ");
+                    age = Convert.ToInt32(Console.ReadLine())
                     ageCorrect = true;
                 }
                 catch
@@ -37,9 +36,8 @@ namespace mainApp
             {
                 try
                 {
-                    Console.Write($"Enter your height: {height}");
-                    height = Console.ReadLine();
-                    int heightConvert = Convert.ToInt32(height);
+                    Console.Write("Enter your height: ");
+                    height = Convert.ToInt32(Console.ReadLine()));
                     heightCorrect = true;
                 }
                 catch
@@ -54,8 +52,7 @@ namespace mainApp
                 try
                 {
                     Console.Write($"Enter your weight: {weight}");
-                    weight = Console.ReadLine();
-                    int weightConvert = Convert.ToInt32(weight);
+                    weight = Convert.ToInt32(Console.ReadLine())
                     weightCorrect = true;
                 }
                 catch
@@ -64,9 +61,8 @@ namespace mainApp
                 }
             }
 
-            string residenceAddress = "";
             Console.Write("Enter your place of residence: ");
-            residenceAddress = Console.ReadLine();
+            string residenceAddress = Console.ReadLine();
 
             Console.WriteLine();
 

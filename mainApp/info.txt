@@ -1,9 +1,9 @@
 ========= INFORMATION ABOUT YOU =========
 
-	1. Name: ee
-	2. Age: 33
-	3. Height: 3
-	4. Weight: 3
-	5. Residence Address: 3
+	1. Name: Danil
+	2. Age: 18
+	3. Height: 173
+	4. Weight: 70
+	5. Residence Address: Moscow
 
 =========================================

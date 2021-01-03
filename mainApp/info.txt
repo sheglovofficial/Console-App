@@ -4,6 +4,6 @@
 	2. Age: 18
 	3. Height: 173
 	4. Weight: 70
-	5. Residence Address: Moscow
+	5. Residence Address: Lipetsk, Russian Federation
 
 =========================================

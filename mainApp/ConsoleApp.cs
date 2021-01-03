@@ -4,7 +4,7 @@ using System.Threading;
 
 namespace mainApp
 {
-    class Program
+    class ConsoleApp
     {
         static void Main(string[] args)
         {

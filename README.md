@@ -11,3 +11,7 @@ This application displays information about a person after he enters certain dat
   <li> Open project files in any text editor (preferably in Visual Studio) </li>
   <li> Run the application with the keyboard shortcut Ctrl + F5 (if it is Visual Studio) </li>
 </ol>
+
+<h1> Example of program execution </h1>
+
+![](https://imgur.com/LwYKqSG.png)

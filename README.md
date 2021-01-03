@@ -3,7 +3,7 @@ Welcome to my first GitHub repository.
 
 I am just starting to learn the C # programming language so I wrote a simple console application
 
-This application displays information about a person after he enters certain data.
+This application writes information about a person to a `.txt` file.
 
 <h1> How to run this console application: </h1>
 <ol> 
